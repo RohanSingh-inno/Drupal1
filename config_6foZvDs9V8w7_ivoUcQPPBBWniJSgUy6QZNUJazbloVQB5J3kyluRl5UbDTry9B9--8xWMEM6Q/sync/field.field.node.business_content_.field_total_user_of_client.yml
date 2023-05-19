@@ -1,0 +1,23 @@
+uuid: abf06341-73d2-47fb-8672-e35a465b67f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_user_of_client
+    - node.type.business_content_
+id: node.business_content_.field_total_user_of_client
+field_name: field_total_user_of_client
+entity_type: node
+bundle: business_content_
+label: 'Total user of client'
+description: 'Number of user of the client company.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 25
+  max: 5000000
+  prefix: ''
+  suffix: ''
+field_type: integer

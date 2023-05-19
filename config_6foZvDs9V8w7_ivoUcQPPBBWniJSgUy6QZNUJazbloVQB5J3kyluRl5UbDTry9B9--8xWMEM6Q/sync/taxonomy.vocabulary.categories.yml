@@ -1,0 +1,8 @@
+uuid: edd68cbc-51b4-41e7-8d8a-a251445e4b49
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Categories in the news'
+weight: 0

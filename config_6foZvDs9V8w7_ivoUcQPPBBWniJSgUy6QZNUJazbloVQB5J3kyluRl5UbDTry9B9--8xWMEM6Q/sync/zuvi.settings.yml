@@ -1,0 +1,41 @@
+_core:
+  default_config_hash: _0b2Dyb993JzkbRlFnYz7hMynhBxgPtAERPG2BDTudI
+favicon:
+  mimetype: image/jpeg
+  path: 'public://we-Favicon.jpg'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://pngwing.com_.png'
+  use_default: false
+all_icons_show: 1
+facebook_url: 'https://www.facebook.com/idewdot'
+twitter_url: 'https://twitter.com/dewdots'
+instagram_url: 'https://www.instagram.com/google'
+linkedin_url: 'https://in.linkedin.com/company/google'
+youtube_url: 'https://www.youtube.com/user/Google'
+vimeo_url: 'https://vimeo.com/'
+telegram_url: 'https://telegram.org/'
+whatsapp_url: 'https://web.whatsapp.com/'
+github_url: 'https://github.com/'
+vk_url: ''
+circle_type: circle_border
+slider_show: 1
+slider_code: "<li>\r\n  <h1><em>We</em>  is Multipurpose services site.</h1>\r\n  <p>Zuvi Theme is packed full of all the amazing features and options for you to create a successful website</p>\r\n  <a class=\"button-link\" href=\"#\">Get Started</a>\r\n</li>\r\n<li>\r\n  <h1>This is powered by <em>Drupal.</em></h1>\r\n  <p>We present you material design. We put our hearts and soul into making every project.</p>\r\n  <a class=\"button-link\" href=\"#\">Get Started</a>\r\n</li>\r\n<li>\r\n  <h1>We Create <em>Awesome</em> websites and apps !</h1>\r\n  <p>Our themes are of high quality, flexible and beautifully crafted that stand out of crowd.</p>\r\n  <a class=\"button-link\" href=\"#\">Get Started</a>\r\n</li>"
+slider_image: {  }
+slider_image_path: ''
+front_sidebar: 0
+comment_user_pic: 1
+node_author_pic: 0
+node_tags: 0
+font_icon_fontawesome: 0
+font_icon_material: 0
+copyright_text: 1
+scrolltotop_on: 1
+styling: 0
+styling_code: ''
+font_icon_fontawesome5: 0

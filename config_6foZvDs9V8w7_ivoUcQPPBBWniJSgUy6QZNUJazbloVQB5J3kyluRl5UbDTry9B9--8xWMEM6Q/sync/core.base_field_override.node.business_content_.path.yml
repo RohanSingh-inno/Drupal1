@@ -1,0 +1,20 @@
+uuid: 5f797807-3eba-471b-9ceb-9c1348de2100
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_content_
+  module:
+    - path
+id: node.business_content_.path
+field_name: path
+entity_type: node
+bundle: business_content_
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

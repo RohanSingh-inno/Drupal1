@@ -1,0 +1,33 @@
+uuid: 158f5bc8-dc5c-4ac1-92c3-7ba56ab7b51d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bb622011-0eb6-42f8-a035-7ede4e6206a3'
+  module:
+    - block_content
+    - node
+  theme:
+    - bootstrap
+id: cusbloarticle
+theme: bootstrap
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'block_content:bb622011-0eb6-42f8-a035-7ede4e6206a3'
+settings:
+  id: 'block_content:bb622011-0eb6-42f8-a035-7ede4e6206a3'
+  label: CusBloArticle
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

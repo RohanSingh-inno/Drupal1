@@ -1,0 +1,18 @@
+uuid: abc04ff5-9b32-4008-8caa-979850e9c4f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_content_
+id: node.business_content_.created
+field_name: created
+entity_type: node
+bundle: business_content_
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

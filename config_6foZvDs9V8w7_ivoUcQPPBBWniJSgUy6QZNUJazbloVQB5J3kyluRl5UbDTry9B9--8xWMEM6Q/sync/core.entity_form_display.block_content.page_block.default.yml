@@ -1,0 +1,45 @@
+uuid: 092f3b3a-dea2-4217-9fad-c918fb3af341
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.page_block
+    - field.field.block_content.page_block.field_description
+    - field.field.block_content.page_block.field_page
+id: block_content.page_block.default
+targetEntityType: block_content
+bundle: page_block
+mode: default
+content:
+  field_description:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_page:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

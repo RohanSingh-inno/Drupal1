@@ -1,0 +1,21 @@
+uuid: b1fb70f6-835e-49a7-846d-4f53b9d441c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_people
+    - node.type.business_content_
+  module:
+    - options
+id: node.business_content_.field_total_people
+field_name: field_total_people
+entity_type: node
+bundle: business_content_
+label: 'Total People'
+description: 'Number of employees assignment to the client company.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

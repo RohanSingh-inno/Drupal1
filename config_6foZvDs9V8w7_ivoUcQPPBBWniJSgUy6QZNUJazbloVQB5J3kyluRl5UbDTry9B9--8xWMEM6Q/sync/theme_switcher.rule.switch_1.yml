@@ -1,0 +1,19 @@
+uuid: 0d41fd11-e295-41c6-81fa-f19f0b5c028f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: switch_1
+label: Switch-1
+weight: 0
+theme: bootstrap
+admin_theme: olivero
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

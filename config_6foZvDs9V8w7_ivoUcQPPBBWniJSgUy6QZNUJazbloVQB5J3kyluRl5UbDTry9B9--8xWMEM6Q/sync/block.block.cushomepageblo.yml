@@ -1,0 +1,30 @@
+uuid: e64d6456-4698-4117-af1c-19f01ddec6a4
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d81a262e-03d5-4f0c-8df9-5cd2bd2b4397'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: cushomepageblo
+theme: bootstrap
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:d81a262e-03d5-4f0c-8df9-5cd2bd2b4397'
+settings:
+  id: 'block_content:d81a262e-03d5-4f0c-8df9-5cd2bd2b4397'
+  label: CushomePageBlo
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
