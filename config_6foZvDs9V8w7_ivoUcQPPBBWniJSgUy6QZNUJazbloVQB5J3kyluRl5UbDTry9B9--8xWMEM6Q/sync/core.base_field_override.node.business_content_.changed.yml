@@ -1,0 +1,18 @@
+uuid: 3c71591b-b67d-4cc3-bc87-0de3231c0403
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_content_
+id: node.business_content_.changed
+field_name: changed
+entity_type: node
+bundle: business_content_
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

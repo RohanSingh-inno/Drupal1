@@ -1,0 +1,54 @@
+uuid: 2a0bcbd6-90c0-43ca-8bbf-c1b52ca33e7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_total_people
+field_name: field_total_people
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: 5.0
+      label: '5'
+    -
+      value: 6.0
+      label: '6'
+    -
+      value: 7.0
+      label: '7'
+    -
+      value: 8.0
+      label: '8'
+    -
+      value: 9.0
+      label: '9'
+    -
+      value: 10.0
+      label: '10'
+    -
+      value: 11.0
+      label: '11'
+    -
+      value: 12.0
+      label: '12'
+    -
+      value: 13.0
+      label: '13'
+    -
+      value: 14.0
+      label: '14'
+    -
+      value: 15.0
+      label: '15'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

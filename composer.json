@@ -20,6 +20,8 @@
         "drupal/admin_toolbar": "^3.3",
         "drupal/asset_injector": "^2.16",
         "drupal/bootstrap": "^3.28",
+        "drupal/config_filter": "^1.10",
+        "drupal/config_split": "^1.9",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",

@@ -1,0 +1,21 @@
+uuid: b088e998-6c5d-4097-a3f4-4087d1c509a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: css_2
+label: css-2
+code: |-
+  img{
+  	text-align:center;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: olivero
+contexts: {  }
+conditions_require_all: true

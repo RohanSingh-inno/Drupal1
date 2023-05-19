@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: a59020fa-0869-48f8-bc2a-cb2011cbf1a3
+name: 'Drupal training'
+mail: rohansingh8274@gmail.com
+slogan: 'The best place to understand drupal concepts'
+page:
+  403: /node/8
+  404: /node/7
+  front: /node/5
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: rohan.singh@innoraft.com

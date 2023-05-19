@@ -1,0 +1,17 @@
+uuid: 06d18957-29ae-48d5-9fd9-8e0766b62871
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: news
+description: 'It will be used to create nodes which will store the news information.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

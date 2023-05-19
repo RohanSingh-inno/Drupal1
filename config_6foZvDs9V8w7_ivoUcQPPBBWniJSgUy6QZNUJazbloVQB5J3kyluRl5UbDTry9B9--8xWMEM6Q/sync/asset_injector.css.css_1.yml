@@ -1,0 +1,22 @@
+uuid: 2f750fc1-352d-4d75-8ee4-5e3230ad7a49
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+id: css_1
+label: css-1
+code: |+
+  p{
+  	border : 2px solid red;
+  }
+
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: olivero
+contexts: {  }
+conditions_require_all: true

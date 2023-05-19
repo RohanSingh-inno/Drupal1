@@ -1,0 +1,17 @@
+_core:
+  default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    en: en
+    ru: ru
+    de: de
+    ar: ar
+  domains:
+    en: task1.net
+    ru: ru.task1.net
+    de: de.task1.net
+    ar: ar.task1.net
+selected_langcode: site_default

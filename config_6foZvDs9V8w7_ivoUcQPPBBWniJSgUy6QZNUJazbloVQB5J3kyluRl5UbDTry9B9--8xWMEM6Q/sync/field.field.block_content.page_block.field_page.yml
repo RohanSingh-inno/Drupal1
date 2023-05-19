@@ -1,0 +1,21 @@
+uuid: ca24b8c5-c751-4dc6-af3b-2ec7ac9c6525
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.page_block
+    - field.storage.block_content.field_page
+id: block_content.page_block.field_page
+field_name: field_page
+entity_type: block_content
+bundle: page_block
+label: Page
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '[current-page:title]'
+default_value_callback: ''
+settings: {  }
+field_type: string

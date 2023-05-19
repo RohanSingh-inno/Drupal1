@@ -1,0 +1,29 @@
+uuid: 96ac5f5e-2211-4c88-ab4f-4208dfc6665c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.author.field_display_picture
+    - field.field.node.author.field_email
+    - field.field.node.author.field_name
+    - field.field.node.author.field_phone_number
+    - node.type.author
+  module:
+    - user
+id: node.author.teaser
+targetEntityType: node
+bundle: author
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_display_picture: true
+  field_email: true
+  field_name: true
+  field_phone_number: true
+  langcode: true

@@ -1,0 +1,38 @@
+_core:
+  default_config_hash: 1uFogeFphl0Hg6oVCacZZ8mM_0wMZ7PS_RrmLbK5tf0
+favicon:
+  mimetype: image/jpeg
+  path: 'public://we-Favicon_0.jpg'
+  url: /sites/default/files/we-Favicon_0.jpg
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://i01_i01_drupaltutor-1.jpeg'
+  url: ''
+  use_default: false
+schemas:
+  bootstrap: 8000
+table_responsive: '-1'
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+apply: Apply
+reset_http_request_cache: ''
+table: ''
+navbar_inverse: 0
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''

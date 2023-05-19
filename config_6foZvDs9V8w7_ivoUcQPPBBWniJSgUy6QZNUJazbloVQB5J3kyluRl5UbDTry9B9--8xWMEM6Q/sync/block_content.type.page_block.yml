@@ -1,0 +1,8 @@
+uuid: 81c9e1b7-0fb8-467e-8940-0478ec0925ca
+langcode: en
+status: true
+dependencies: {  }
+id: page_block
+label: 'Page Block'
+revision: 0
+description: 'Page Block as per ticket'

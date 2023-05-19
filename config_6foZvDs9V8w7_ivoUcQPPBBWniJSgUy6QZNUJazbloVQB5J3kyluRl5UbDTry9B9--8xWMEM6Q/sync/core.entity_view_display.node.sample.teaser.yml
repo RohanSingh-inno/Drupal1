@@ -1,0 +1,36 @@
+uuid: 08326454-a0ca-4f7c-93bd-a7b94add8312
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sample.body
+    - field.field.node.sample.field_coopy
+    - field.field.node.sample.field_reference
+    - node.type.sample
+  module:
+    - text
+    - user
+id: node.sample.teaser
+targetEntityType: node
+bundle: sample
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_coopy: true
+  field_reference: true
+  langcode: true

@@ -1,0 +1,15 @@
+uuid: dad451bb-c290-429d-9153-9ccb2f322863
+langcode: en
+status: true
+dependencies: {  }
+name: extra_small_50_50_
+label: 'Extra Small (50*50)'
+effects:
+  7781b294-2f4f-4df0-a7f2-ac521613e0e1:
+    uuid: 7781b294-2f4f-4df0-a7f2-ac521613e0e1
+    id: image_scale
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      upscale: true

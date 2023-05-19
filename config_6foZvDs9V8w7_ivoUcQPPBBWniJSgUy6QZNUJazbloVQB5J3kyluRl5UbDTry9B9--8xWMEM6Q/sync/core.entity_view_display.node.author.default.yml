@@ -1,0 +1,57 @@
+uuid: a193e3a2-59f1-4cba-87c5-185bc6c00b20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.author.field_display_picture
+    - field.field.node.author.field_email
+    - field.field.node.author.field_name
+    - field.field.node.author.field_phone_number
+    - image.style.extra_small_50_50_
+    - node.type.author
+  module:
+    - image
+    - user
+id: node.author.default
+targetEntityType: node
+bundle: author
+mode: default
+content:
+  field_display_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: extra_small_50_50_
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_email:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_name:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_phone_number:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true
+  links: true

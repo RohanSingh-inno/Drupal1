@@ -1,0 +1,20 @@
+uuid: e86ed916-4406-4b8b-8dcd-807d3e90c650
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - bootstrap
+id: languageswitcher
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: visible
+  provider: language
+visibility: {  }

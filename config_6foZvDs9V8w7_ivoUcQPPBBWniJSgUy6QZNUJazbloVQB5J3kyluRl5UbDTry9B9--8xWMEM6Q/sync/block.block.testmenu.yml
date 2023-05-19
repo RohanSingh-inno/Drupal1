@@ -1,0 +1,25 @@
+uuid: 7bfcb333-f214-4411-ab00-d601169e9c74
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.test-menu
+  module:
+    - system
+  theme:
+    - bootstrap
+id: testmenu
+theme: bootstrap
+region: navigation_collapsible
+weight: -12
+provider: null
+plugin: 'system_menu_block:test-menu'
+settings:
+  id: 'system_menu_block:test-menu'
+  label: 'Test Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

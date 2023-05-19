@@ -1,0 +1,18 @@
+uuid: a52f2f3c-2540-4f83-83a9-e6375c7638d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.business_content_
+id: node.business_content_.title
+field_name: title
+entity_type: node
+bundle: business_content_
+label: 'Business Content title'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
